@@ -1,0 +1,12 @@
+extends layout
+block content
+ h1 RESULTS.
+    - var x = Math.floor(Math.random() * 10);
+    - var y = Math.floor(Math.random() * 10);
+    - var res1 = Math.fround (x);
+    - var res2 = Math.random (y);
+    - var res3 = Math.round(x)
+
+ p Math.fround(#{x}) is #{res1}
+ p Math.random(#{y}) is #{res2}
+ p Math.round(#{x}) is #{res3}
